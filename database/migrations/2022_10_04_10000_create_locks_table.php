@@ -25,7 +25,7 @@ return new class extends Migration
 		Schema::create($table, function (Blueprint $table) {
 			$table->id();
 			$table->morphs('model');
-			$table->foreignIdFor(\App\Models\User::class);
+			$table->foreignIdFor(\App\Models\User::class)->nullable()->default(null);
 			$table->dateTime('created_at')->default(null);
 			$table->dateTime('updated_at')->default(null);
 		});
