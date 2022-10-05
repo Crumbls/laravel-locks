@@ -39,6 +39,10 @@ To unlock a model:
 You may also listen to the \Crumbls\Lock\Events\ModelLocked and \Crumbls\Lock|events\ModelUnlocked events to know when a
 model becomes locked or unlocked.  They both pass one reference, being the model affected.
 
+## Filament
+We love using Filament.  You can add a boolean column to the model for lock.id to see if an item is locked.  I will be
+developing this out quite a bit in the next few weeks.
+
 ## Summary
 
 This package really wasn't put together for public usage, but I was asked to release it.  If there are any issues,
