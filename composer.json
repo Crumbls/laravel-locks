@@ -1,6 +1,6 @@
 {
     "name": "crumbls/laravel-locks",
-    "description": "Allow locking and unlocking models when a user is editing, etc",
+    "description": "Allow locking and unlocking of models when a user is editing. Similar to WordPress' Post locks.",
     "license": "MIT",
     "authors": [
         {
@@ -9,7 +9,6 @@
             "homepage": "https://github.com/chasecmiller"
         }
     ],
-    "homepage": "Allow locking and unlocking of models when a user is editing. Similar to WordPress' Post locks.",
     "keywords": [
         "Laravel", "Lock", "Unlock", "Model", "Editing"
     ],
