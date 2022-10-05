@@ -2,7 +2,6 @@
 
 namespace Crumbls\Lock\Models;
 
-use App\Jobs\BuildReport;
 use App\Models\User;
 use Crumbls\Lock\Events\ModelLocked;
 use Crumbls\Lock\Events\ModelUnlocked;

@@ -31,10 +31,14 @@ To check if a model is unlocked:
 To lock a model:
 
 `$model->lock()->create()`
+or
+`\Lock::lock($model)`
 
 To unlock a model:
 
 `$model->lock()->delete()`
+or
+`\Lock::unlock($model)`
 
 You may also listen to the \Crumbls\Lock\Events\ModelLocked and \Crumbls\Lock|events\ModelUnlocked events to know when a
 model becomes locked or unlocked.  They both pass one reference, being the model affected.
